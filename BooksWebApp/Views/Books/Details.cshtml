@@ -1,0 +1,15 @@
+﻿@model BooksWebApp.Models.Books
+
+@{
+    ViewData["Title"] = @Html.DisplayFor(model => model.Title);
+}
+<div class="col-md-8 mx-auto py-2">
+    <h1 class="my-3">@Html.DisplayFor(model => model.Title)</h1>
+
+    <h2 class="h4">Description :</h2>
+    <hr />
+    <p>
+        @Html.DisplayFor(model => model.description)
+    </p>
+</div>
+

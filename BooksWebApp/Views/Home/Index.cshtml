@@ -1,0 +1,60 @@
+﻿@{  
+   ViewData["Title"] = "Home Page";  
+}  
+
+<div class="col-md-8 mx-auto">
+   <h1>Book Manager CRUD Application in ASP.NET Core 8</h1>  
+   <p>Here's a structured presentation text for a Book Manager CRUD Application built in ASP.NET Core 8 that includes authentication and search features:</p>  
+
+   <h2>Objective:</h2>  
+   <p>This application serves as a comprehensive tool for managing a library of books. Built using ASP.NET Core 8, it includes user authentication, a book search feature, and standard CRUD (Create, Read, Update, Delete) operations.</p>  
+
+   <h2>Key Features</h2>  
+
+   <h3>User Authentication</h3>  
+   <ul>  
+       @* <li><strong>Authentication & Authorization:</strong> The application includes built-in authentication to secure access to different user roles, such as Admin and User.</li>   *@
+       <li><strong>Role-Based Access:</strong> Only authorized users can add, update, or delete books, while general users can search and view book details.</li>  
+   </ul>  
+
+   <h3>CRUD Operations for Book Management</h3>  
+   <ul>  
+       <li><strong>Create:</strong> Admin users can add new books to the library database, specifying details like title, author, ISBN, genre, publication year, and description.</li>  
+       <li><strong>Read:</strong> All users can view book listings, along with comprehensive book details, including cover images, if available.</li>  
+       <li><strong>Update:</strong> Admin users can edit book details directly within the application, allowing for easy catalog maintenance.</li>  
+       <li><strong>Delete:</strong> Admins have access to remove outdated or duplicate entries, ensuring a clean database.</li>  
+   </ul>  
+
+   <h3>Search and Filtering</h3>  
+   <ul>  
+       <li><strong>Search by Title, description keywords</strong> The search functionality allows users to quickly find books by entering keywords related to the book's title or description.</li>  
+       <li><strong>Advanced Filtering:</strong> Filters enable users to narrow down results based on genre, publication year, and more.</li>  
+   </ul>  
+
+   <h3>Responsive User Interface</h3>  
+   <ul>  
+       <li><strong>Mobile-Friendly Design:</strong> Developed with responsive web design principles, the app is optimized for both desktop and mobile use.</li>  
+       <li><strong>User-Centric Interface:</strong> A clean and intuitive interface enhances user experience, ensuring ease of use for all levels of users.</li>  
+   </ul>  
+
+   <h3>Technology Stack</h3>  
+   <ul>  
+       <li><strong>ASP.NET Core 8:</strong> Provides a fast and efficient web framework for handling user requests, data processing, and response rendering.</li>  
+       <li><strong>Entity Framework Core:</strong> Manages data storage and retrieval in a structured database, ensuring the application is fully compatible with relational databases like SQL Server.</li>  
+       <li><strong>Razor Pages:</strong> Implements dynamic and modular UI elements for the CRUD pages.</li>  
+       <li><strong>Dependency Injection:</strong> Follows best practices for managing services within the application.</li>  
+       <li><strong>Bootstrap 5:</strong> Utilizes the latest version of Bootstrap for responsive design and styling.</li>
+</ul>  
+
+   <h3>Potential Extensions</h3>  
+   <p>Future enhancements could include:</p>  
+   <ul>  
+       <li>Add more informations for books: Include additional details like author, ISBN, book reviews ...</li>
+       <li>User Roles and Permissions: Implement more granular control over user access and permissions.</li>
+       <li>Book Cover Image Upload: Allow users to upload cover images for books.</li>
+       <li>Add Ctegories and keywords for books: Implement a tagging system for books to enable better categorization and search.</li>
+       <li>Add commmens for books: Allow users to comment on books and engage in discussions.</li>
+       <li>Redesign a website : Implement a new design for the website.</li>
+       <li>User Ratings and Reviews: Allow users to rate and review books.</li>  
+   </ul>  
+</div>
